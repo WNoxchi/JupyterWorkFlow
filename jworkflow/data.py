@@ -8,7 +8,7 @@ def get_fremont_data(filename='Fremont.csv', url=FREMONT_URL, force_download=Fal
 	"""Download and cache the fremont data
 
 	Parameters
-	---------
+	----------
 	filename : string (optional)
 		location to save data
 	url : string (optional)
