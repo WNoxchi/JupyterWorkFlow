@@ -7,7 +7,7 @@ FREMONT_URL = "https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=
 def get_fremont_data(filename='Fremont.csv', url=FREMONT_URL, force_download=False):
 	"""Download and cache the fremont data
 
-	Paramters
+	Parameters
 	---------
 	filename : string (optional)
 		location to save data
